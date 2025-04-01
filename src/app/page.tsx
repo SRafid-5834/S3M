@@ -31,11 +31,11 @@ export default function Home() {
       </div>
 
       {/* Content */}
-      <div className="flex-1 flex items-center justify-center px-4 sm:px-8 md:px-16 lg:px-24 -mt-20 sm:-mt-30 md:-mt-40 lg:-mt-50">
+      <div className="flex-1 flex items-center justify-center px-4 sm:px-8 md:px-16 lg:px-24 -mt-35">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 md:gap-16 w-full max-w-6xl relative z-20">
           <Link href="https://zed-two.vercel.app/" className="block w-full">
             <Card className="hover:bg-slate-800/90 transition-colors cursor-pointer bg-slate-900/80 min-h-[250px] sm:min-h-[300px] border-slate-700 overflow-hidden">
-              <CardHeader className="text-center">
+              <CardHeader className="text-center space-y-4">
                 <CardTitle className="text-2xl sm:text-3xl md:text-4xl text-slate-100 font-bold">ZED</CardTitle>
                 <CardDescription className="text-sm sm:text-base text-slate-300">Enjoy clean and organized video conferencing with ZED</CardDescription>
               </CardHeader>
@@ -57,7 +57,7 @@ export default function Home() {
 
           <Link href="https://papyrus-nine.vercel.app/" className="block w-full">
             <Card className="hover:bg-slate-800/90 transition-colors cursor-pointer bg-slate-900/80 min-h-[250px] sm:min-h-[300px] border-slate-700 overflow-hidden">
-              <CardHeader className="text-center">
+              <CardHeader className="text-center space-y-4">
                 <CardTitle className="text-2xl sm:text-3xl md:text-4xl text-slate-100 font-bold">Papyrus</CardTitle>
                 <CardDescription className="text-sm sm:text-base text-slate-300">Collaborate on documents with Papyrus</CardDescription>
               </CardHeader>
